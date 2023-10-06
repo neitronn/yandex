@@ -66,6 +66,10 @@ h3{
     padding: 24px 48px;
     border-radius: 36px;
     line-height: 17px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    z-index: 7;
 }
 
 .circle {
