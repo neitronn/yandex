@@ -25,6 +25,7 @@
 :root {
     --main-color-black: #21201F;
     --main-color-grey: rgba(128, 128, 128, 1);
+    --additional-color-grey: rgb(197, 197, 197);
 }
 
 body{
