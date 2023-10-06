@@ -1,0 +1,81 @@
+h1{
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
+h3{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
+.price{
+    display: inline-block;
+    position: absolute;
+}
+
+.wrapper-price{
+    border-radius: 500px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.63)),
+    radial-gradient(100% 100% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+    display: flex;
+    height: 33px;
+    position: absolute;
+    top: -2px;
+    left: 3px;
+    letter-spacing: 0;
+}
+
+.wrapper-price > span{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    line-height: 30px;
+}
+
+.promotional-price{
+    background: radial-gradient(100% 100% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+    border-radius: 500px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.old-price{
+    font-size: 16px;
+    line-height: 19.2px;
+    color: var(--main-color-grey);
+    text-decoration: line-through;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.branded-button{
+    border: none;
+    background: rgb(255, 222, 64);
+    box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+    padding: 24px 48px;
+    border-radius: 36px;
+    line-height: 17px;
+}
+
+.circle {
+    overflow: visible;
+    display: block;
+    font-weight: 900;
+    font-size: 20px;
+    color: #000;
+}
+
+.circle path {
+    fill: none;
+}

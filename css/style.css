@@ -1,0 +1,186 @@
+header{
+    height: 804px;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.gradient{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%),
+    linear-gradient(90deg, #FF5C4D 0%, #EB469F 25%, #8341EF 72%, #3F68F9 100%);
+    opacity: 0.22;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.block-info{
+    position: relative;
+    z-index: 3;
+    max-width: 420px;
+    top: 124px;
+    left: 262px;
+    float: left;
+}
+
+.block-info h1{
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.block-info p{
+    letter-spacing: 0.06px;
+}
+
+.block-info__button{
+    margin-top: 37px;
+}
+
+.block-img{
+    position: relative;
+    float: right;
+    right: 74px;
+    top: 44px;
+}
+
+.block-img svg{
+    width: 175px;
+    position: absolute;
+    bottom: 167px;
+    left: 254px;
+    transform: rotate(21deg);
+    letter-spacing: -1.3px;
+    z-index: 3;
+}
+
+.picture-header{
+    position: relative;
+    z-index: 2;
+}
+
+.picture-shadow{
+    position: absolute;
+    z-index: 2;
+    left: -120px;
+    top: -45px;
+}
+
+.content{
+    padding: 0 262px;
+}
+
+.advantage-image, .advantage-image > span, .advantage-image > img{
+    position: relative;
+}
+
+.advantages h2{
+    max-width: 820px;
+    margin-top: -3px;
+    margin-bottom: 48px;
+}
+
+.advantages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages .advantage:nth-child(even){
+    width: 362px;
+    margin-right: 112px;
+}
+
+.advantages .advantage:nth-child(odd){
+    width: 400px;
+}
+
+.advantages .advantage{
+    height: 215px;
+    margin-bottom: 61px;
+}
+
+.advantage p{
+    margin-top: 27px;
+    line-height: 29px;
+}
+
+.icon-Vector-2{
+    top: 3px;
+    left: 3px;
+    font-size: 58px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    linear-gradient(47.75deg, #FF5C4D 9.81%, #EB469F 26.65%, #8341EF 58.3%, #3F68F9 77.16%);
+}
+
+.icon-uniE904{
+    font-size: 40px;
+    left: -43px;
+    top: -4px;
+}
+
+.icon-3{
+    left: 20px;
+    top: -33px;
+    font-size: 20px;
+}
+
+.icon-Vector-3{
+    font-size: 45px;
+    left: 24px;
+    top: 1px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    linear-gradient(90deg, #FF5C4D 0%, #EB469F 25%, #8341EF 72%, #3F68F9 100%);
+}
+
+span.icon-Vector{
+    position: absolute;
+    left: 11px;
+    top: 5px;
+    font-size: 52px;
+}
+
+.icon-Vector-4{
+    font-size: 44px;
+    left: 11px;
+    top: 2px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    linear-gradient(238.93deg, #FF5C4D 10.57%, #EB469F 29.68%, #8341EF 65.59%, #3F68F9 86.99%);
+}
+
+.icon-Vector-1{
+    font-size: 53px;
+    left: -26px;
+    top: 4px;
+}
+
+.icon-Vector-5{
+    font-size: 60px;
+    left: 1px;
+    top: 4px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    linear-gradient(238.93deg, #FF5C4D 10.57%, #EB469F 29.68%, #8341EF 65.59%, #3F68F9 86.99%);
+
+}
+
+.icon-Vector-2, .icon-Vector-3, .icon-Vector-4, .icon-Vector-5{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+}
+
+.battery{
+    left: -37px;
+    top: -6px;
+}
+
+.advantage .advantage-margin{
+    margin-top: 40px;
+}
+
+.exclusive-offer h3{
+    margin-top: 51px;
+    max-width: 820px;
+}

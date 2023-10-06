@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "YS Text";
+    src: url("https://yastatic.net/s3/home/fonts/ys/4/text-black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "YS Text";
+    src: url("https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "YS Text";
+    src: url("https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --main-color-black: #21201F;
+    --main-color-grey: rgba(128, 128, 128, 1);
+}
+
+body{
+    min-width: 320px;
+    font-family: "YS Text";
+    font-weight: 500;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--main-color-black);
+    text-align: left;
+}
+
