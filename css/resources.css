@@ -17,6 +17,7 @@ h3{
     line-height: 48px;
     font-weight: 900;
     letter-spacing: -0.02em;
+    word-wrap: break-word;
 }
 
 .price{
