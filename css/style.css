@@ -344,3 +344,7 @@ footer p{
     text-align: left;
     color: var(--additional-color-grey);
 }
+
+.pagination{
+    display: none;
+}

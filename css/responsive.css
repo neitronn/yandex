@@ -159,3 +159,260 @@
         top: -94px;
     }
 }
+
+@media (max-width: 767px) {
+    .block-info img{
+        width: 112.5px;
+        height: 32px;
+    }
+    .block-info h1{
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 20px;
+        margin-bottom: 24px;
+        max-width: 72%;
+    }
+    .block-info p{
+        font-size: 18px;
+        line-height: 23px;
+        padding-right: 0;
+    }
+    .wrapper-price{
+        height: 23px;
+        top: 0px;
+        left: 4px;
+    }
+    .wrapper-price .promotional-price{
+        font-size: 18px;
+        line-height: 21px;
+        padding-left: 6px;
+        padding-right: 8px;
+    }
+    .wrapper-price .old-price{
+        font-size: 13px;
+        line-height: 15px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .block-info__button{
+        display: none;
+    }
+    header{
+        padding-bottom: 29px;
+    }
+    header .block-img{
+        width: calc(100vw - 21px);
+        max-width: none;
+        left: -27px;
+        top: -3px;
+    }
+    .block-img svg {
+        width: 21%;
+        left: 30.5%;
+        bottom: 25.3%;
+    }
+    h2, h3{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .advantages {
+        margin-top: 0px;
+    }
+    .advantages h2{
+        margin-bottom: 44px;
+    }
+
+    .advantages .advantage{
+        margin-bottom: 39px;
+    }
+    .content .advantages .advantage{
+       width: 300px;
+    }
+    .advantage{
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+    }
+    .advantage p, .advantage .advantage-margin{
+        margin-top: 0 !important;
+    }
+    .mobile-adjustment{
+        margin-top: -11px;
+    }
+    .mobile-adjustment + .advantage{
+        margin-top: -12px;
+    }
+    .advantage-image{
+        margin-right: 39px;
+        width: 50px;
+        min-width: 50px;
+        line-height: 0;
+    }
+    .advantage-image .icon-uniE904, .advantage-image .icon-3, .advantage-image .icon-Vector, .advantage-image .icon-Vector-1{
+        position: absolute;
+    }
+
+    .icon-Vector-2 {
+        font-size: 51px;
+        top: -1px;
+        left: 4px;
+    }
+    .icon-uniE904 {
+        font-size: 35px;
+        left: 8px;
+        top: 8px;
+    }
+    .icon-Vector-3{
+        left: 7px;
+        font-size: 40px;
+    }
+    .icon-3 {
+        left: 44px;
+        top: -10px;
+        font-size: 18px;
+    }
+    span.icon-Vector {
+        left: -5px;
+        top: 4px;
+        font-size: 47px;
+    }
+    .icon-Vector-4 {
+        left: 3px;
+        top: 1px;
+    }
+    .icon-Vector-1 {
+        left: 12px;
+        top: -5px;
+    }
+    .icon-Vector-5 {
+        font-size: 46px;
+        left: 1px;
+        top: 15px;
+    }
+    .battery {
+        left: 21px;
+        top: -22px;
+        width: 41px;
+    }
+
+    .exclusive-offer h3{
+        margin-top: 29px;
+        margin-bottom: 23px;
+    }
+    .exclusive-offer-description{
+        font-size: 16px;
+        line-height: 19px;
+        width: auto;
+        height: auto;
+    }
+    .slider-wrapper {
+        flex-wrap: nowrap;
+        width: max-content;
+    }
+    .slider-wrapper__items{
+        position: static;
+    }
+
+    .offer-slider-mobile{
+        padding: 0;
+        margin-top: 44px;
+        left: -16px;
+        width: calc(100vw - 32px);
+    }
+    .slider-wrapper__items{
+        max-width: 343px;
+        border-radius: 48px;
+        transform: rotate(0);
+    }
+    .slider-wrapper > .slider-wrapper__items:not(:last-child){
+        margin-right: 30px;
+    }
+    .exclusive-offer .offer-slider-mobile .decoration-1{
+        display: block;
+        top: -78px;
+        right: -45px;
+        width: 180px;
+    }
+    .pagination{
+        display: flex;
+        width: 108px;
+        justify-content: space-between;
+        margin: 16px auto 0 auto;
+    }
+    .pagination-button{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: rgb(255, 222, 64);
+        opacity: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pagination-button.active{
+        opacity: 1;
+    }
+    .previous{
+        transform: rotate(180deg);
+    }
+    .content .subscription > div.subscription-item{
+        width: 100%;
+    }
+    .subscription > .subscription-item:nth-child(odd){
+        margin-bottom: 71px;
+    }
+    .scooter-positioning{
+        display: none;
+    }
+    .community-positioning > img:nth-child(2){
+        position: relative;
+    }
+
+    .subscription{
+        margin-left: 0;
+        margin-top: 68px;
+    }
+    .subscription h3{
+        max-width: 290px;
+        margin-bottom: 23px;
+    }
+    .subscription p{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .subscription-item .community-positioning .circle{
+        width: 250px;
+        top: 39px;
+        left: 48px;
+    }
+    .subscription-item .community-positioning > img:nth-child(2){
+        width: 190px;
+        left: 61px;
+    }
+    .subscription > .subscription-item:last-child{
+        margin-top: -45px;
+    }
+    .subscription p{
+        max-width: 90%;
+        float: none;
+    }
+
+    .branded-button{
+        font-size: 18px;
+        padding: 18px 86px;
+    }
+    .subscription-item__button {
+        margin-top: 26px;
+    }
+
+    footer {
+        margin-top: 70px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+    footer p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
